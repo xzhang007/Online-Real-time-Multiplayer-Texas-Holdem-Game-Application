@@ -1,0 +1,59 @@
+body {
+    width: 100%;
+    height: 100%;
+    font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+    /*background-color: lightblue;*/
+}
+
+.lobby-body {
+    padding-top: 50px;
+}
+
+.list-group-item {
+    word-wrap: break-word;
+    font-family: monospace, serif;
+}
+
+#canvas-container {
+    background-image: url("../images/gametable.jpg");
+}
+
+.game-button {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100px;
+
+}
+
+.plain-button {
+    padding: 0;
+    margin: 0;
+    background-size: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 100px;
+}
+
+canvas {
+    /*height: 100vh;*/
+    /*width: 100vw;*/
+    position: relative;
+    display: block;
+}
+
+a {
+    /*color: #00B7FF;*/
+}
+
+div.score-group {
+    font-size: 20px;
+}
+
+.all-rooms li {
+    font-size: 20px;
+}

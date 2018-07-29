@@ -1,0 +1,38 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  #ranking-board     
+    .col-md-4            
+      h3 Score Board
+      div.score-group1 Xinlu 300        
+      div.score-group Cheng 200
+      div.score-group Xuan 300
+         
+  #game-room
+    .col-md-4      
+      .game-room
+        h3 Game Board
+        ul.all-rooms
+          li Room 1
+          li Room 2
+          li Room 3
+
+          
+
+  #chat-board
+
+    .col-lg-4
+      .col-lg-6
+        .input-group
+          input.form-control(type='text', placeholder='Message...')
+          span.input-group-btn
+            button.btn.btn-default(type='button') Send
+
+  
+
+
+
+  	 

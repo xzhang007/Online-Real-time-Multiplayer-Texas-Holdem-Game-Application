@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  h2
+  .container.lobby-body
+    .row
+      #ranking-board.col-md-4
+        h3 Score Board
+        .score1
+
+      #game-room.col-md-4
+        h3 Game Board
+        #rooms.list-group
+
+
+      #chat-board.col-md-4
+        h3 Chat Board
+        .display-message.well.well-sm
+           .message-board This is posted message
+        .input-group
+           input.form-control(type='text', placeholder='Message...')
+           span.input-group-btn
+           button.btn.btn-default(type='button') Send
