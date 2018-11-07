@@ -1,7 +1,10 @@
 # Online-Real-time-Multiplayer-Texas-Holdem-Game-Application
 • Designed and implemented a teamwork online multiplayer web application of Texas Hold’em in client-server archi- tecture with RESTful APIs, version controls using git, and deployed to Heroku cloud.
+
 • Implemented server-side in Node.js (Express.js framework), and used WebSocket for real-time chatting and notifi- cations and Pg-Promise to connect to the PostgresSQL database.
+
 • Implemented client-side in HTML5/CSS3/JQuery, Bootstrap and Pug.
+
 • Link: https://caezar.herokuapp.com
 
 ![Alt text](https://github.com/xzhang007/Online-Real-time-Multiplayer-Texas-Holdem-Game-Application/blob/master/pics/1.jpg)
